@@ -955,7 +955,9 @@ button:hover span {
   width: 300px; /* fixed width for desktop */
   transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
-
+.project-card p{
+  margin: 10px;
+}
 .project-card:hover {
   transform: scale(1.05);
   transform: translateY(-10px);
